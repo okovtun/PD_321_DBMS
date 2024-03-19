@@ -1,0 +1,16 @@
+USE PD_321
+
+--SELECT
+--		[Ф.И.О. студента]		= FORMATMESSAGE('%s, %s, %s', last_name, first_name, middle_name),
+--		[Напраление обучения]	= direction_name
+--FROM	Students, Groups, Directions
+--WHERE	Students.[group] = Groups.group_id
+--AND		Groups.direction = Directions.direction_id
+
+SELECT
+		[Ф.И.О. студента]		= FORMATMESSAGE('%s %s %s', last_name, first_name, middle_name),
+		[Группа]				= Groups.group_name,
+		[Направление обуения]	= direction_name
+FROM	Students
+JOIN	Groups		ON (Students.[group] = Groups.group_id)
+RIGHT OUTER JOIN	Directions	ON (Groups.direction = Directions.direction_id)
