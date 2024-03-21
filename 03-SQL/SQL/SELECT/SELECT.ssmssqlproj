@@ -43,11 +43,23 @@
           <AssociatedConnUserName />
           <FullPath>HW1_SQLQuery4 - Disciplines Directions.sql</FullPath>
         </FileNode>
+        <FileNode Name="HW1_SQLQuery5 - COUNT Student on Directions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:T430\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>T430\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HW1_SQLQuery5 - COUNT Student on Directions.sql</FullPath>
+        </FileNode>
         <FileNode Name="HW1_SQLQuery6 - Groups size.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:T430\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>T430\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>HW1_SQLQuery6 - Groups size.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HW1_SQLQuery7 - COUNT Teachers on Disciplines.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:T430\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>T430\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HW1_SQLQuery7 - COUNT Teachers on Disciplines.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery1 - SELECT Teachers.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:T430\SQLEXPRESS:True</AssociatedConnectionMoniker>
